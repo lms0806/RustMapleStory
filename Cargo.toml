@@ -1,0 +1,13 @@
+[package]
+name = "rust_maple_story"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bevy = "0.18.1"
+rand = "0.10.1"
+
+[profile.release]
+lto = "fat"         # 링크 단계에서 전체 코드 최적화 진행
+codegen-units = 1   # 전체 코드를 하나로 보고 최적화 (빌드가 느려질 수 있음)
+opt-level = 3       # 컴파일러 최적화 강도 (release는 default 3)
