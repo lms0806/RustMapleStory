@@ -1,6 +1,6 @@
 # RustMapleStory
 
-`plan.md` 기반으로 만든 Rust + Bevy 2D 횡스크롤 액션 프로토타입입니다.
+Rust + Bevy 2D 횡스크롤 액션 프로토타입입니다.
 
 ## 실행
 
